@@ -23,12 +23,11 @@
   text-decoration: none;
 }
 
-.chat-create a{
+.chat-create {
   border: solid 1px lightblue;
   padding: 14px;
-  margin: 0 20px;
   font-size: 10px;
-  color: skyblue;
+  color: deepskyblue;
   text-decoration: none;
 }
 
