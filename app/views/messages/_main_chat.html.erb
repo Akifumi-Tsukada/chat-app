@@ -12,32 +12,7 @@
 </div>
 
 <div class="main-frame">
-  <div class="messages">
-  <div class="user-post">
-    <div class="name">
-    Tom
-    </div>
-    <div class="time">
-    2020/3/31(Wed) 12:43:30
-    </div>
-  </div>
-  <div class="message">
-    おはよう
-  </div>
-  </div>
-  <div class="messages">
-  <div class="user-post">
-    <div class="name">
-    Tom
-    </div>
-    <div class="time">
-    2020/3/31(Wed) 12:47:30
-    </div>
-  </div>
-  <div class="message">
-  こんばんは
-  </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <div class="chat-bottom">
